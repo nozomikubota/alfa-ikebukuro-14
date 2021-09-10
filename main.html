@@ -29,11 +29,10 @@
 
       <!-- STAGE1　ここから -->
       <div id="sectionStage1" class="stage">
-
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>まずはキジムナーについて知ろう！</h2>
             <p class="text-center">食堂をぐるっと見回したら、古い紙の切れ端が落ちていた！<br>
               よく見てみると、「キジムナー」という文字がうっすら見える。<br>
               しかし、その他の箇所は暗号化されていて何と書かれているのか全くわからない・・・。</p>
@@ -86,9 +85,10 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__content">どうやらキジムナーは魚介が好きらしい・・・<br>
+                冷蔵庫から魚料理を手に入れ、キジムナーにプレゼントすれば、<br>
+                もしかしたら食堂から解放してくれるかもしれない。<br>
+                おまけに、夜食も手に入るかも‥？</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -107,10 +107,9 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>冷蔵庫の扉を開けろ！</h2>
+              <p class="text-center">冷蔵庫に向かうと、食料を生徒に盗まれないように、冷蔵庫の扉にロックが掛かっていた！<br>
+                冷蔵庫を開けるためには、謎をとかなくてはならない。</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -172,7 +171,6 @@ Youtube貼り付けここまで -->
 2-3追加ここまで -->
 
               </div><!-- /.row -->
-
             </div>
           </div>
         </section>
@@ -182,8 +180,8 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">黒板の指示に従い、<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__content">無事冷蔵庫を開け、<br>
+                焼き鮭とタコ飯を手に入れることが出来た！</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
