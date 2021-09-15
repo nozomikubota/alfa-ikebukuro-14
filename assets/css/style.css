@@ -24,7 +24,7 @@ body {
   text-decoration: none;
   border: none;
   list-style: none;
-  color: #000;
+  color: #1f3134;
   margin: 0;
 }
 
@@ -58,19 +58,19 @@ input[type=text] {
 }
 
 ::-webkit-input-placeholder {
-  color: #999;
+  color: #c0a2c7;
 }
 
 :-ms-input-placeholder {
-  color: #999;
+  color: #c0a2c7;
 }
 
 ::-ms-input-placeholder {
-  color: #999;
+  color: #c0a2c7;
 }
 
 ::placeholder {
-  color: #999;
+  color: #c0a2c7;
 }
 
 button {
@@ -78,8 +78,8 @@ button {
   display: block;
   border: none;
   margin: 0 auto;
-  background-color: #006837;
-  color: #fff;
+  background-color: #ff6666;
+  color: #c1e4e9;
   width: 287px;
   height: 55px;
 }
@@ -147,7 +147,7 @@ button {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #;
   margin-bottom: 20px;
   height: 100%;
 }
@@ -175,7 +175,7 @@ button {
   content: '';
   width: calc(100% - 60px);
   height: 7px;
-  background-color: #fcee21;
+  background-color: #d0af4c;
   position: absolute;
   top: -10px;
   left: 30px;
@@ -198,7 +198,7 @@ button {
           transform: rotate(90deg);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  fill: #009245;
+  fill: #fff1cf;
   width: 12px;
   height: 24px;
 }
@@ -239,15 +239,15 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #39b54a;
+  background-color: #ee936f;
 }
 
 .bg-color--subcolor {
-  background-color: #d9e021;
+  background-color: #7ebea5;
 }
 
 .bg-color--gray {
-  background-color: #e6e6e6;
+  background-color: #badcad;
 }
 
 /*********************
@@ -288,7 +288,7 @@ button {
 }
 
 .section-title--keycolorlight .section-title__stage {
-  color: #fff;
+  color: #f8e58c;
 }
 
 .section-title--keycolor {
@@ -316,7 +316,7 @@ button {
   left: calc(50% - 95px);
   display: block;
   content: '';
-  background-color: #fff;
+  background-color: #;
   height: 2.6px;
   width: 190px;
 }
@@ -336,8 +336,8 @@ button {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  background-color: #006837;
-  color: #fff;
+  background-color: #165e83;
+  color: #bbbcde;
   font-size: 24px;
   line-height: 1.54167;
   text-align: center;
