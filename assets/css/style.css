@@ -175,7 +175,7 @@ button {
   content: '';
   width: calc(100% - 60px);
   height: 7px;
-  background-color: #fcee21;
+  background-color: #d0af4c;
   position: absolute;
   top: -10px;
   left: 30px;
@@ -198,7 +198,7 @@ button {
           transform: rotate(90deg);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  fill: #009245;
+  fill: #fff1cf;
   width: 12px;
   height: 24px;
 }
@@ -239,15 +239,15 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #e198b4;
+  background-color: #ee936f;
 }
 
 .bg-color--subcolor {
-  background-color: #7b6c3e;
+  background-color: #7ebea5;
 }
 
 .bg-color--gray {
-  background-color: #eaf4fc;
+  background-color: #badcad;
 }
 
 /*********************
@@ -337,7 +337,7 @@ button {
   text-decoration: none;
   cursor: pointer;
   background-color: #006837;
-  color: #fff;
+  color: #bbbcde;
   font-size: 24px;
   line-height: 1.54167;
   text-align: center;
