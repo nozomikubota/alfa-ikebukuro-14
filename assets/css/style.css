@@ -58,19 +58,19 @@ input[type=text] {
 }
 
 ::-webkit-input-placeholder {
-  color: #eaf4fc;
+  color: #c0a2c7;
 }
 
 :-ms-input-placeholder {
-  color: #eaf4fc;
+  color: #c0a2c7;
 }
 
 ::-ms-input-placeholder {
-  color: #eaf4fc;
+  color: #c0a2c7;
 }
 
 ::placeholder {
-  color: #eaf4fc;
+  color: #c0a2c7;
 }
 
 button {
