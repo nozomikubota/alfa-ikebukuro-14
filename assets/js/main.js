@@ -110,9 +110,9 @@ app.component('answer-input', {
     return {
       /* 送信ボタン上下に表示されるメッセージ */
       okMessage: '正解おめでとう(^○^)',
-      ngMessage: 'もう一度チャレンジしてみよう٩(ˊᗜˋ*)و',
-      message: '',
-      inputAnswer: '',
+      ngMessage: '残念！答えが違うみたい(´· ·`)',
+      message: '簡単だったかな？',
+      inputAnswer: 'もう一回トライしてみてね！',
     }
   },
   template: `
