@@ -111,8 +111,8 @@ app.component('answer-input', {
       /* 送信ボタン上下に表示されるメッセージ */
       okMessage: '正解おめでとう(^○^)',
       ngMessage: '残念！答えが違うみたい(´· ·`)',
-      message: '簡単だったかな？',
-      inputAnswer: 'もう一回トライしてみてね！',
+      message: '',
+      inputAnswer: 'ひらがなもしくは半角英字で入力しよう',
     }
   },
   template: `
