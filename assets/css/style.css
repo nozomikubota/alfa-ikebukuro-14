@@ -147,7 +147,7 @@ button {
 }
 
 .card {
-  background-color: #;
+  background-color: #fff;
   margin-bottom: 20px;
   height: 100%;
 }
@@ -288,7 +288,7 @@ button {
 }
 
 .section-title--keycolorlight .section-title__stage {
-  color: #f8e58c;
+  color: #000000;
 }
 
 .section-title--keycolor {
@@ -316,7 +316,7 @@ button {
   left: calc(50% - 95px);
   display: block;
   content: '';
-  background-color: #;
+  /* background-color: #; */
   height: 2.6px;
   width: 190px;
 }
@@ -337,7 +337,7 @@ button {
   text-decoration: none;
   cursor: pointer;
   background-color: #165e83;
-  color: #bbbcde;
+  color: #fff;
   font-size: 24px;
   line-height: 1.54167;
   text-align: center;
