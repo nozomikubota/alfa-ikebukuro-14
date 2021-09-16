@@ -126,7 +126,7 @@ app.component('answer-input', {
     </div>`,
   methods: {
     judgement(answer) {
-      if(answer.toUpperCase() === this.correct.toUpperCase()) { // 入力値が解答と一致する場合
+      if(answer === this.correct) { // 入力値が解答と一致する場合
         this.message = this.okMessage;
         this.$emit('answerInput', true);
       } else { // 一致しない場合
