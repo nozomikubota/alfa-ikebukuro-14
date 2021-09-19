@@ -112,7 +112,7 @@ app.component('answer-input', {
       okMessage: '正解おめでとう(^○^)',
       ngMessage: '残念！答えが違うみたい(´· ·`)',
       message: '',
-      inputAnswer: 'ひらがなもしくは半角英字',
+      inputAnswer: '<span style="color: #666666">ひらがなもしくは半角英字</span>',
     }
   },
   template: `
