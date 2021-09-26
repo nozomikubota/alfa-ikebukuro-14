@@ -510,3 +510,8 @@ button {
   display: none;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* 中央寄せ */
+.center {
+  text-align: center; 
+}

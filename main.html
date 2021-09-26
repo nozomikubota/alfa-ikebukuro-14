@@ -27,6 +27,12 @@
     <h1 class="main-title"><img src="assets/images/main-image.jpeg" alt="妖怪キジムナーの謎"></h1>
     <!-- タイトルエリア　ここまで -->
 
+    <!-- 中央寄せ-->
+    <div class="center">
+      <!-- BGMの再生/停止ボタン-->
+      <input id="btn1" type="image" onclick="play()" src="assets/images/play.jpeg">
+    </div>
+
     <div id="stage">
       <!-- STAGE1　ここから -->
       <div id="sectionStage1" class="stage">
@@ -231,6 +237,24 @@ Youtube貼り付けここまで -->
         <p class="text-center">株式会社SCRAPとN・S高で実施した授業「リアル脱出ゲームの作り方」の一環で<br>生徒が制作したものであり、SCRAPが主催/公認するものではありません。</p>
     </div>
   </footer>
+
+  <audio id="bgm" preload loop>
+    <source src="assets/audio/bgm.mp3" type="audio/mp3">
+  </audio>
+
+  <script>
+    function play() {
+      document.getElementById("bgm").play();
+      document.getElementById("btn1").src = "assets/images/pause.jpeg";
+      document.getElementById("btn1").onclick = new Function('pause();');
+    }
+
+    function pause() {
+      document.getElementById("bgm").pause();
+      document.getElementById("btn1").src = "assets/images/play.jpeg";
+      document.getElementById("btn1").onclick = new Function("play();");
+    }
+  </script>
 
   <script src="https://unpkg.com/vue@next"></script>
   <script src="assets/js/main.js"></script>
